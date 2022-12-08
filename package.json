@@ -1,0 +1,25 @@
+{
+  "name": "inventory-management",
+  "version": "1.0.0",
+  "description": "Backend Application of Inventory Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adhish-1998/Inventory-Management.git"
+  },
+  "author": "Adhish Basak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adhish-1998/Inventory-Management/issues"
+  },
+  "homepage": "https://github.com/Adhish-1998/Inventory-Management#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
