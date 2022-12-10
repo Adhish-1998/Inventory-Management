@@ -16,7 +16,8 @@ const grnSchema = new mongoose.Schema({
     date: Date,
     status: {
         type: String,
-        enum: ['GENERATED', 'COMPLETED', 'CANCELLED']
+        enum: ['GENERATED', 'COMPLETED', 'CANCELLED'],
+        default: 'GENERATED'
     },
     invoiceNumer: Number,
     deleted: {
